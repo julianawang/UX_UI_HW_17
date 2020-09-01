@@ -1,3 +1,5 @@
+/*Home Page (Header & Footer also)*/
+
 .inline-block{
     display: inline-block;
     vertical-align: top;
@@ -39,4 +41,55 @@ footer{
 
 .contactLogo{
     transform:scale(0.3);
+}
+
+/*My Work Section*/
+.workGrid{
+    margin: auto;
+    padding: 100px;
+    display:grid;
+    width:600px;
+    height: 300px;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "projectName projectImage"
+    "projectDes projectImage"
+    "projectDes projectImage"
+    "viewProject projectImage"
+}
+
+#projectImage{
+    grid-area:projectImage;
+    background-image: url("../images/placeholderImage.jpg");
+}
+
+#projectName{
+    grid-area: projectName;
+}
+
+#projectDes{
+    grid-area: projectDes;
+}
+
+#viewProject{
+    grid-area: viewProject;
+}
+
+/*Mobile Media Query*/
+@media only screen and (max-width: 600){
+    .workGrid{
+        margin: auto;
+        padding: 50px;
+        display:grid;
+        width:500px;
+        height: 300px;
+        grid-template-rows: 40% 20% 20% 20%;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "projectImage"
+        "projectName"
+        "projectDes"
+        "viewProject"
+    }
 }
