@@ -1,24 +1,27 @@
 /*Home Page (Header & Footer also)*/
 
+body{
+    font-family: Open Sans;
+}
 .inline-block{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
-.logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+.personalLogo{
+    width:20%;
+    padding-left: 50px;
+    text-align: left;
 }
 
-nav{
-    width: 50%;
-    margin-left: auto;
+.headerText{
+    float:right;
 }
 
-ul{
-    width: 50%;
-    margin-left: auto;
+ul li{
+    font-size: 22px;
+    display:inline;
+    padding-left: 60px;
 }
 
 .heroImg{
