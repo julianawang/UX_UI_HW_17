@@ -1,0 +1,70 @@
+/* Start navigation bar */
+.customNav{
+    position: fixed;
+    width:100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  .navbar-nav{
+    margin-left:auto;
+    margin-right:0 !important;
+  }
+  
+  .navbar-brand img{
+    padding-left: 10px;
+    width: 65px;
+  }
+  
+  .navbar-item{
+    margin: 0px 15px;
+  }
+  
+  .navCTA {
+    font-size: 15px;
+  }
+
+  ul li{
+    font-size: 22px;
+    list-style-type:none;
+    display:inline;
+    padding-left: 60px;
+    text-align: right;
+}
+
+/* End navigation bar */
+/* Start hero intro */
+.heroIntro{
+  width:1000px;
+  margin: 0px auto;
+  margin-bottom:50px;
+  margin-top:50px;
+}
+/* End hero intro */
+/* Start work preview */
+.workPrev{
+    height: 400px;
+    width:1000px;
+    margin: 0px auto;
+    margin-bottom:20px;
+}
+
+.workPrev img{
+    height:350px;
+    width:auto;
+    float:left;
+    padding-right:20px;
+}
+
+.workPrev button{
+  background-color:darkgray;
+  border-radius:5px;
+  color:white;
+  border:none;
+}
+
+.workPrev button:hover{
+  background-color:lightgray;
+}
+/* End work preview */
