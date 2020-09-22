@@ -1,46 +1,42 @@
 /* Start navigation bar */
-.customNav{
-    position: fixed;
-    width:100%;
-    background-color: transparent !important;
-    background-size: cover;
-    z-index: 10;
-  }
-  
-  .navbar-nav{
-    margin-left:auto;
-    margin-right:0 !important;
-  }
-  
-  .navbar-brand img{
-    padding-left: 10px;
-    width: 65px;
-  }
-  
-  .navbar-item{
-    margin: 0px 15px;
-  }
-  
-  .navCTA {
-    font-size: 15px;
-  }
-
-  ul li{
-    font-size: 22px;
-    list-style-type:none;
-    display:inline;
-    padding-left: 60px;
-    text-align: right;
+.navBar{
+  clear:both;
+  overflow:auto;
+  width: 90%;
+  margin: 0px auto;
+  margin-top:40px;
+  background-color:white;
 }
 
+.logo{
+  float:left;
+}
+
+nav{
+  float:right;
+}
+
+.nav-links li{
+  list-style:none;
+  display:inline-block;
+  padding-left:100px;
+  padding-top:20px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color: black;
+  font-size: 20px;
+}
 /* End navigation bar */
 /* Start hero intro */
 .heroIntro{
   width:1000px;
   margin: 0px auto;
-  margin-bottom:50px;
+  margin-bottom:80px;
   margin-top:50px;
 }
+
 /* End hero intro */
 /* Start work preview */
 .workPrev{
@@ -80,3 +76,53 @@ span {
   }
 }
 
+.testing{
+  width:80%;
+  margin-left:100px;
+  margin:auto;
+}
+.card-deck{
+  width:800px;
+  justify-content:space-around;
+}
+
+.testingText{
+  margin-top:18px;
+  margin-left:15px;
+}
+
+/* Problem statement */
+.problemStatement{
+  background-color: #AAFFCD;
+  padding:30px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.probText{
+  width:1000px;
+  margin:auto;
+}
+
+/* Header style (fixed) */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Progress container (grey bg) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* Progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: black;
+  width: 0%;
+}
